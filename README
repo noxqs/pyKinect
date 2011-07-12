@@ -1,0 +1,35 @@
+pyKinect is an interface to access all the Kinect functions offered by the
+Microsoft Official (beta) kinect SDK.
+
+This is done by building a wrapper class called pyKinect. This class interfaces
+with the following functions:
+
+NUI functions from MSRKINECTNUI.DLL :
+    5 MSR_NUIGetDeviceCount
+    6 MSR_NuiCreateInstanceByIndex
+    7 MSR_NuiDestroyInstance
+    8 MSR_NuiGetPropsBlob
+    9 MSR_NuiGetPropsType
+   10 NuiCameraElevationGetAngle
+   11 NuiCameraElevationSetAngle
+   12 NuiImageGetColorPixelCoordinatesFromDepthPixel
+   13 NuiImageStreamGetNextFrame
+   14 NuiImageStreamOpen
+   15 NuiImageStreamReleaseFrame
+   16 NuiInitialize
+   17 NuiInternalSetHooks
+   18 NuiShutdown
+   19 NuiSkeletonGetNextFrame
+   20 NuiSkeletonTrackingDisable
+   21 NuiSkeletonTrackingEnable
+   22 NuiTransformSmooth
+
+AUDIO functions in MSRKINECTAUDIO.DLL
+    DllCanUnloadNow
+    DllGetClassObject
+    DllRegisterServer
+    DllUnregisterServer
+    GetKinectDeviceInfo
+
+
+
