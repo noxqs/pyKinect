@@ -1,0 +1,12 @@
+ -- version 0.01
+
+ Working:
+ - detect dll installation
+ - detect number of kinects plugged in
+ - detect and set angle of motor
+ - init NUI with different properties
+ 
+ Todo:
+ 0.02 - Implement events/call back functions to receive and skelecton images
+ 0.03 - Use pyglet library to display images
+ 0.10 - Pull Speech functions from other DLL
